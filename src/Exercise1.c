@@ -15,6 +15,16 @@
 
 void Ex1(int lowerbound, int upperbound){
 	//your codes here
+	int n[1000];
+	int i;
+	for (int i = 0; i < SIZE; i++)
+	{
+		while (n[i]>=lowerbound && n[i]<=upperbound)
+	{
+		if(n[i]%7==0 && n[i]%5==0)
+		printf("Output:%d",n[i]);
+	}
+	}
 	
 }
 
