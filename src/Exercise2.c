@@ -19,7 +19,20 @@ Ex:
 
 void Ex2(char t[]){
 	//your codes here
-	
+	float c=0,f=0;
+	char last=strlen(t);
+	c=atoi(t);
+	f=atoi(t);
+	if (t[last]=='C')
+	{
+		f=(c*1.8)+32;
+		printf("Output:%d F",f);
+	}
+	if (t[last]=='F'){
+		c=(f-32)/1.8;
+		printf("Output:%d C",c);
+	}	
+}
 	
 }
 
