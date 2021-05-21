@@ -15,7 +15,15 @@ Ex:
 
 void Ex3(int lowerbound, int upperbound){
 	//your codes here
-	
+	int n[SIZE];
+	int i;
+	for(i=0;i<=SIZE;i++){
+		while (n[i]>=lowerbound&&n[i]<=upperbound)
+		{
+			n[i]=n[i]-1 + n[i]-2;
+		}
+		printf("Output:%d",n[i]);
+	}
 }
 
 int main(int argc, char *argv[]) {
